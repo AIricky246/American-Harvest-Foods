@@ -16,7 +16,7 @@ ul{
     margin:0;
     padding:0;
     overflow: hidden;
-    background-color: none
+    background-color: none;
 }
 ul li {
     float: left;
@@ -45,10 +45,10 @@ nav a {
 
 }
 nav a:hover {
-    color: black
+    color: black;
 }
 nav a.active {
-    color: black
+    color: black;
 }
 h2 {
     text-align: center;
@@ -69,4 +69,33 @@ h4 {
 p {
     text-align: center;
     margin: 30px;
+}
+form {margin-top: 30px;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font: inherit;
+    padding: 5px;
+    color: black;
+}
+input[type="text"], input[type="name"], input[type="email"]{
+    padding: 5px 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #eb8978;
+    border-radius: 30px;   
+    
+}
+input[type="submit"]{
+    width: 200px;
+    padding: 10px;
+    background-color: #eb8978;
+    color: brown;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
 }
