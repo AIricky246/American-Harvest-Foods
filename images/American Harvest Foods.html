@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>American Harvest Foods</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./American Harvest Foods_files/styles.css">
     
 </head>
 <body>
@@ -13,12 +13,12 @@
     </header>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
-            <li><a href="salespromo.html">Sales Promo</a></li>
-            <li><a href="giveback.html">Give Back</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/recipes.html">Recipes</a></li>
+            <li><a href="http://127.0.0.1:5500/salespromo.html">Sales Promo</a></li>
+            <li><a href="http://127.0.0.1:5500/giveback.html">Give Back</a></li>
+            <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+            <li><a href="http://127.0.0.1:5500/contactus.html">Contact Us</a></li>
             
         </ul>
     </nav>
@@ -40,7 +40,7 @@
         </div>
      
             
-            <div aria-hidden class="group">
+            <div aria-hidden="" class="group">
                 <div class="card"><li><a href="https://thesoulfoodpot.com/baked-mac-and-cheese/">Baked Mac and Cheese</a></li></div>
                 <div class="card"><li><a href="https://thereisfoodathome.com/recipes/soul-food-collard-greens/">Collard Greens</a></li></div>
                 <div class="card"><li><a href="https://thesoulfoodpot.com/southern-turkey-recipe/">Turkey</a></li></div>
@@ -55,26 +55,26 @@
             <p>Thanksgiving Food Deals</p>
             <ul>
                 <li>
-                    <div class="card"><a href="https://www.wincofoods.com/">Winco</a></div.class>
+                    <div class="card"><a href="https://www.wincofoods.com/">Winco</a>
+                </div></li>
+                <li>
+                    <div class="card"><a href="https://www.naturalgrocers.com/store/oklahoma-city-northwest-expressway?utm_source=googlemaps&amp;utm_medium=local&amp;utm_campaign=oklahoma-city-northwest-expressway">Natural Grocers</a></div>
                 </li>
                 <li>
-                    <div class="card"><a href="https://www.naturalgrocers.com/store/oklahoma-city-northwest-expressway?utm_source=googlemaps&utm_medium=local&utm_campaign=oklahoma-city-northwest-expressway">Natural Grocers</a></div>
-                </li>
-                <li>
-                    <div class="card"><a href="https://www.wholefoodsmarket.com/stores/oklahomacity?utm_source=google&utm_medium=organic&utm_campaign=listings">Whole Foods</a></div>
+                    <div class="card"><a href="https://www.wholefoodsmarket.com/stores/oklahomacity?utm_source=google&amp;utm_medium=organic&amp;utm_campaign=listings">Whole Foods</a></div>
                 </li>
             </ul>
     <h3>Give Back</h3>
         <h4>"Give Thanks, Give Back"</h4>
             <p>"Win a Complete Thanksgiving Dinner for Your Family"</p>
 
-        <form action="/submit-form" method="post">
+        <form action="http://127.0.0.1:5500/submit-form" method="post">
             <fieldset>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" required>
+                <input type="text" id="name" name="user_name" required="">
             
                 <label for="email">Email</label>
-                <input type="email" id="email" name="user_email" required>     
+                <input type="email" id="email" name="user_email" required="">     
              </fieldset>
              <button type="submit">Enter to Win</button>
         </form>
@@ -88,9 +88,47 @@
             <li>Phone: (123) 456-7890</li>
 
     <footer>
-        <p>&copy; 2025 American Harvest Foods. All rights reserved.</p>
+        <p>© 2025 American Harvest Foods. All rights reserved.</p>
 
     </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+    <script src="./American Harvest Foods_files/script.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</ul></body></html>
